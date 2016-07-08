@@ -26,6 +26,12 @@ That can be done with a single search-and-replace usually.
     + note: since dl.sh names the images using the patron's barcode, barcodes ending in a forward slash "/" result in an invalid file name & the download does not complete successfully, this is a bug that I should fix if I ever need to use this tool again
 - zip & upload the "img" folder (containing IDLINK.txt) to Koha https://library-staff.cca.edu/cgi-bin/koha/tools/picture-upload.pl
 
+# Requirements
+
+- node & npm
+- run `npm install` to get project dependencies
+- python csvkit (`pip install csvkit`) is needed for the "dl.sh" script
+
 # LICENSE
 
 [ECL Version 2.0](https://opensource.org/licenses/ECL-2.0)
