@@ -1,0 +1,17 @@
+{
+  "name": "scrape-portal-img",
+  "version": "1.0.0",
+  "description": "pulls user images from CCA portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phette23 <phette23@gmail.com> (http://phette.net)",
+  "license": "ECL-2.0",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "nightmare": "^2.4.1",
+    "request": "^2.72.0",
+    "vo": "^4.0.2"
+  }
+}
